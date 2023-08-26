@@ -1,4 +1,4 @@
-import { catsData } from '/data.js'
+
 //yes
 const emotionRadios = document.getElementById('emotion-radios')
 const getImageBtn = document.getElementById('get-image-btn')
@@ -6,6 +6,176 @@ const gifsOnlyOption = document.getElementById('gifs-only-option')
 const memeModalInner = document.getElementById('meme-modal-inner')
 const memeModal = document.getElementById('meme-modal')
 const memeModalCloseBtn = document.getElementById('meme-modal-close-btn')
+const catsData = [
+    {
+        emotionTags: ["moody"],
+        isGif: false,
+        image: "moody.webp",
+        alt: "A cat looking moody",
+    },
+    {
+        emotionTags: ["moody", "insomniac"],
+        isGif: false,
+        image: "angry2.webp",
+        alt: "A cat looking moody",
+    },
+    {
+        emotionTags: ["moody"],
+        isGif: false,
+        image: "angry3.webp",
+        alt: "A cat looking moody",
+    },
+    {
+        emotionTags: ["confused", "sad"],
+        isGif: false,
+        image: "confused1.webp",
+        alt: "A cat looking confused",
+    },
+    {
+        emotionTags: ["dominant", "moody"],
+        isGif: false,
+        image: "dominant.webp",
+        alt: "A cat looking dominant",
+    },
+    {
+        emotionTags: ["happy", "relaxed"],
+        isGif: true,
+        image: "happy123.webp",
+        alt: "A cat looking happy",
+    },
+    {
+        emotionTags: ["hungry"],
+        isGif: false,
+        image: "hungry.webp",
+        alt: "A cat looking hungry",
+    },
+    {
+        emotionTags: ["hungry"],
+        isGif: false,
+        image: "hungry1.webp",
+        alt: "A cat looking hungry",
+    },
+    {
+        emotionTags: ["insomniac"],
+        isGif: false,
+        image: "insom.webp",
+        alt: "A cat looking insomniac",
+    },
+    {
+        emotionTags: ["insomniac"],
+        isGif: false,
+        image: "insom2.webp",
+        alt: "A cat looking insomniac",
+    },
+    {
+        emotionTags: ["relaxed"],
+        isGif: false,
+        image: "lazy.webp",
+        alt: "A cat looking lazy",
+    },
+    {
+        emotionTags: ["scared"],
+        isGif: false,
+        image: "nerv1.webp",
+        alt: "A cat looking nervous",
+    },
+    {
+        emotionTags: ["sad"],
+        isGif: false,
+        image: "sad.webp",
+        alt: "A cat looking sad",
+    },
+    {
+        emotionTags: ["sad", "moody"],
+        isGif: false,
+        image: "sad1.webp",
+        alt: "A cat looking sad",
+    },
+    {
+        emotionTags: ["moody"],
+        isGif: true,
+        image: "angry1.webp",
+        alt: "A cat looking moody",
+    },
+    {
+        emotionTags: ["moody"],
+        isGif: true,
+        image: "angry11.webp",
+        alt: "A cat looking angry",
+    },
+    {
+        emotionTags: ["confused"],
+        isGif: true,
+        image: "confused.webp",
+        alt: "A cat looking confused",
+    },
+    {
+        emotionTags: ["dominant"],
+        isGif: true,
+        image: "dominant2.webp",
+        alt: "A cat looking dominant",
+    },
+    {
+        emotionTags: ["happy"],
+        isGif: true,
+        image: "happy12.webp",
+        alt: "A cat looking happy",
+    },
+    {
+        emotionTags: ["hungry", "sad", "confused"],
+        isGif: true,
+        image: "confused11.webp",
+        alt: "A cat looking hungry",
+    },
+    {
+        emotionTags: ["hungry"],
+        isGif: true,
+        image: "hungry22.webp",
+        alt: "A cat looking hungry",
+    },
+    {
+        emotionTags: ["hungry"],
+        isGif: true,
+        image: "hungry33.webp",
+        alt: "A cat looking hungry",
+    },
+    {
+        emotionTags: ["insomniac", "scared"],
+        isGif: true,
+        image: "insom222.webp",
+        alt: "A cat looking insomniac",
+    },
+    {
+        emotionTags: ["relaxed"],
+        isGif: true,
+        image: "happyanal.webp",
+        alt: "A cat looking relaxed",
+    },
+    {
+        emotionTags: ["relaxed"],
+        isGif: true,
+        image: "relax123.webp",
+        alt: "A cat looking relaxed",
+    },
+    {
+        emotionTags: ["scared", "sad"],
+        isGif: true,
+        image: "nerv123.webp",
+        alt: "A cat looking nervous",
+    },
+    {
+        emotionTags: ["scared"],
+        isGif: true,
+        image: "scare.webp",
+        alt: "A cat looking scared",
+    },
+    {
+        emotionTags: ["sad"],
+        isGif: true,
+        image: "sady1.webp",
+        alt: "A cat looking sad",
+    },
+]
 
 emotionRadios.addEventListener('change', highlightCheckedOption)
 
