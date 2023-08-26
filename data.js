@@ -80,19 +80,19 @@ export const catsData = [
     {
         emotionTags: ["sad", "moody"],
         isGif: false,
-        image: "sad1.jpeg",
+        image: "sad1.webp",
         alt: "A cat looking sad",
     },
     {
         emotionTags: ["moody"],
         isGif: true,
-        image: "angry.gif",
+        image: "angry1.webp",
         alt: "A cat looking moody",
     },
     {
         emotionTags: ["moody"],
         isGif: true,
-        image: "angry2.gif",
+        image: "angry11.webp",
         alt: "A cat looking angry",
     },
     {
@@ -110,31 +110,31 @@ export const catsData = [
     {
         emotionTags: ["happy"],
         isGif: true,
-        image: "happy.gif",
+        image: "happy12.webp",
         alt: "A cat looking happy",
     },
     {
         emotionTags: ["hungry", "sad", "confused"],
         isGif: true,
-        image: "confused.gif",
+        image: "confused11.webp",
         alt: "A cat looking hungry",
     },
     {
         emotionTags: ["hungry"],
         isGif: true,
-        image: "hungry.gif",
+        image: "hungry22.webp",
         alt: "A cat looking hungry",
     },
     {
         emotionTags: ["hungry"],
         isGif: true,
-        image: "hungry2.gif",
+        image: "hungry33.webp",
         alt: "A cat looking hungry",
     },
     {
         emotionTags: ["insomniac", "scared"],
         isGif: true,
-        image: "insomnia2.gif",
+        image: "insom222.webp",
         alt: "A cat looking insomniac",
     },
     {
@@ -146,25 +146,25 @@ export const catsData = [
     {
         emotionTags: ["relaxed"],
         isGif: true,
-        image: "relaxed2.gif",
+        image: "relax123.webp",
         alt: "A cat looking relaxed",
     },
     {
         emotionTags: ["scared", "sad"],
         isGif: true,
-        image: "nervous.gif",
+        image: "nerv123.webp",
         alt: "A cat looking nervous",
     },
     {
         emotionTags: ["scared"],
         isGif: true,
-        image: "nervous2.gif",
+        image: "scare.webp",
         alt: "A cat looking scared",
     },
     {
         emotionTags: ["sad"],
         isGif: true,
-        image: "sad.gif",
+        image: "sady1.webp",
         alt: "A cat looking sad",
     },
 ]
