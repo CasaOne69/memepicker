@@ -1,5 +1,5 @@
 import { catsData } from '/data.js'
-
+//yes
 const emotionRadios = document.getElementById('emotion-radios')
 const getImageBtn = document.getElementById('get-image-btn')
 const gifsOnlyOption = document.getElementById('gifs-only-option')
